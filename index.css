@@ -1,0 +1,73 @@
+/* colors 
+335c67 grey/blue
+fff3b0 cream
+e09f3e sand 
+9e2a2b mauve 
+540b0e maroon */
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: inherit;
+    /* width: 550px;
+    height: 550px; */
+    
+    padding: 10px;
+    margin: 0 auto;
+    height: 550px;
+    width: 550px;
+    max-width: 400%;
+    max-height: 550px;
+
+    border: 5px solid red;
+    border-radius: 10px;
+
+    background-color: cornflowerblue;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    color: #fff3b0;
+}
+
+.section {
+    padding: 10px;
+    margin: 0px auto;
+    width: 590px;
+    max-width: 400%;
+    border-radius: 10px;
+    height: 400px;
+    max-height: 100%;
+    overflow: hidden;
+    max-height: 400px;
+   
+
+    /* padding: 10px;
+    margin: 0 auto;
+    height: 550px;
+    width: 550px;
+    max-width: 400%;
+    max-height: 550px;
+
+    border: 5px solid red;
+
+} */
+
+.btn {
+
+}
+
+.random {
+    color 
+}
