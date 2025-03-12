@@ -17,7 +17,7 @@
 
     <body class="body">
 
-        <div class="container">    
+        <div class="container1">    
             <div class="section">
                 <h1>
                     <span class="white">Generate a</span>
@@ -28,14 +28,14 @@
             </div>
             
             <div class="container2">
-                <button id="generate-el">Generate passwords</button>
+                <button id="generate-el" onclick="generatePassword()">Generate passwords</button>
                 <div class="center">
                     <div class="number-input" min="5" max="20" value="15" step="1">
                         <button type="button" class="btn" onclick="decrease()">
                             <span class="material-icons-outlined">Neg</span>
                         </button>
                         <div class="value">
-                            <span class="number">1</span>
+                            <span class="number" id="lengthValue" class="bigBtn">1</span>
                             <span class="text">Quantity</span>
                         </div>
                         <button type="button" class="btn" onclick="increase()">
@@ -46,16 +46,23 @@
        
             </div>
 
-            <div>
+            <div class="container3">
                 <div class="checkbox">
-                    <div  class="checkbox-p"><p>Symbols</p></div>
-                    <input type="checkbox" id="symbols">
-                    <label for="symbols">Symbols</label>
+                    <div  class="checkbox-p">
+                        <p>Symbols</p>
+                    </div>
+                    <input type="checkbox" id="symbols-el">
+                    <label for="symbols"></label>
                 </div>
+
+
+
                 <div class="checkbox">
-                    <div  class="checkbox-p"><p>Numbers</p></div>
-                    <input type="checkbox" id="numbers">
-                    <label for="numbers">Numbers</label>
+                    <div  class="checkbox-p">
+                        <p>Numbers</p>
+                    </div>
+                    <input type="checkbox" id="numbers-el">
+                    <label for="numbers"></label>
                 </div>
             </div>
 
