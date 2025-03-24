@@ -30,18 +30,29 @@
             <div class="container2">
                 <button id="generate-el" onclick="generatePasswords()">Generate passwords</button>
                 <div class="center">
-                    <div class="number-input" min="5" max="20" value="15" step="1">
+                    <div class="number-input">
+                        <button type="button" class="btn" onclick="decrease()">-</button>
+                        <!-- <input class="number" id="lengthValue" class="bigBtn" min="5" max="20" value="15" step="1"> -->
+                        <span class="number">15</span>
+                        <button type="button" class="btn" onclick="increase()">+</button>
+                    </div>
+
+
+
+                    <!-- orginal layout -->
+                    <!-- <div class="number-input">
                         <button type="button" class="btn" onclick="decrease()">
                             <span class="material-icons-outlined">Neg</span>
                         </button>
                         <div class="value">
-                            <span class="number" id="lengthValue" class="bigBtn">1</span>
+                            changed from span to input this is a note
+                            <input class="number" id="lengthValue" class="bigBtn" min="5" max="20" value="15" step="1">1</input>
                             <span class="text">Quantity</span>
                         </div>
                         <button type="button" class="btn" onclick="increase()">
                             <span class="material-icons-outlined">Add</span>
                         </button>
-                    </div>
+                    </div> -->
                 </div>
        
             </div>
@@ -52,7 +63,7 @@
                         <p>Symbols</p>
                     </div>
                     <input type="checkbox" id="symbols-el">
-                    <label for="symbols"></label>
+                    <label for="symbols-el"></label>
                 </div>
 
 
@@ -62,7 +73,7 @@
                         <p>Numbers</p>
                     </div>
                     <input type="checkbox" id="numbers-el">
-                    <label for="numbers"></label>
+                    <label for="numbers-el"></label>
                 </div>
             </div>
 
