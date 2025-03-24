@@ -14,7 +14,7 @@ h1 {
     width: 280px;
     height: 80px;
 }
-/* change to white ----------------------------------------------------------------------------- */
+
 .white {
     color: white;
 }
@@ -43,20 +43,13 @@ h1 {
 }
 
 .container1 {
-    /* box-sizing: border-box; */
-    /* margin: 65px; */
     background-color: #1F2937;
     width: 550px;
     height: 550px;
     border: 1px solid #1F2937;
-    /* all new below ------------------------------------------------------------------------ */
-    /* display: flex; */
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 20px;
-    /* hid overflow -------------------------------------------------------------- */
-    /* overflow: hidden; */
 }
 
 .container2 {
@@ -95,14 +88,11 @@ h1 {
     height: 60px;
     background: #4ADF86;
     border-radius: 5px;
-    /* box-sizing: border-box; */
     display: flex;
     align-items: center;
-    /* was space AROUND */
     justify-content: space-between;
     padding: 10px;
     font-family:  "Inter", sans-serif;
-    /* transform-style: preserve-3d; */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(27, 31, 35, .15) 0px 0px 0px 1px;
     transition: transform 0.2s ease-in-out;
 }
@@ -336,29 +326,3 @@ hr {
     cursor: pointer;
     user-select: none;
 }
-
-
-
-
-
-
-
-
-/* colors 
-335c67 grey/blue
-fff3b0 cream
-e09f3e sand 
-9e2a2b mauve 
-540b0e maroon
-
-
-chartreuse
-
-* {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}*/
-
-
-
