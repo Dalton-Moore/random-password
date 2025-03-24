@@ -2,7 +2,7 @@ let parentDiv = document.querySelector(".number-input");
 const min = 5;
 const max = 20;
 const step = 1;
-let value = 15; // Default value
+let value = 15;
 let number = parentDiv.querySelector(".number");
 number.innerHTML = value;
 
@@ -78,11 +78,14 @@ function copyPassword(event) {
     const password = event.target.textContent;
     if (password) {
         navigator.clipboard.writeText(password).then(() => {
-            alert("Password copied to clipboard.");
-        });.catch(err => {
-            console.error("Failed to copy: ", err);
+            alert("Password copied to clipboard!");
+        }).catch(err => {
+            console.error("Failed to copy password: ", err);
         });
     } else {
-        alert("No password to copy.");
+        alert("No password to copy!");
     }
 }
+
+password1El.addEventListener("click", copyPassword);
+password2El.addEventListener("click", copyPassword);
